@@ -36,7 +36,6 @@ def start_game():
                 if guess == word:
                     print("Congrats! you did it")
             attempt = attempt + 1
-        print("You lost!")
         ask = input("Do you want to play again? y/n: ")
         if ask == "n":
             play = False
